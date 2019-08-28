@@ -10,7 +10,7 @@ wp-content/uploads/
 wp-content/mu-plugins/
 wp-content/wp-cache-config.php
 wp-content/plugins/hello.php
-
+/package-lock.json
 /.htaccess
 /license.txt
 /readme.html
@@ -18,7 +18,7 @@ wp-content/plugins/hello.php
 /sitemap.xml.gz
 /.vscode/
 /frontend/node_modules/**/
-
+/.history
 /node_modules
 /.pnp
 .pnp.js
