@@ -60,6 +60,8 @@ Value: Bearer token`
     	"status": "publish"
     }
     
-
+### Frontend
+- `npx create-react-app frontend`
+- `npm i axios react-router-dom`
 # Resource
 https://www.youtube.com/watch?v=fFNXWinbgro
