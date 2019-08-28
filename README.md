@@ -9,6 +9,12 @@ A sample project of WordPress with react
   - Advanced Custom Fields
   - ACF to REST API
 ## step 2
+In `.htacces` file add this change
+
+	RewriteCond %{HTTP:Authorization} ^(.*)
+	RewriteRule ^(.*) - [E=HTTP_AUTHORIZATION:%1]
+	SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+
 add below script to `wp-config.php`
 
 `
